@@ -998,6 +998,12 @@
     (uuid fd31dd32-acf4-4c1c-98fc-47809b4493b2)
   )
 
+  (text "Comment:\n\n- R1 value as per offical calculator suggest it should be 2861k"
+    (at 41.91 158.75 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 12c9e645-0fb0-457c-9cc4-4320af54eb60)
+  )
+
   (global_label "LED+" (shape input) (at 215.9 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 644414cd-0279-46a8-888a-9ed87cb1b876)
@@ -1401,7 +1407,7 @@
     (property "Value" "10uF/50v" (at 63.5 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 77.1652 113.03 0)
+    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (at 77.1652 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 76.2 109.22 0)
