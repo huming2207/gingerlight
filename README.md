@@ -14,6 +14,7 @@ Yet another CN5816-based LED boost driver board design for 36v 40w COB LED, like
 - When `Vin` = **20v**, `Vled` = **36v**, `Iout` = **0.8A**:
   - <img width="684" alt="image" src="https://github.com/huming2207/gingerlight/assets/4463497/4808d9f5-904e-40f8-9a26-e0c03cf795f2">
   - If Vled goes too high, try reducing R1 to 4260kohm
+- If you don't want it to be that bright, or you can't afford a big heatsink, then try increasing `R6` (the `Rsw`) to something like 0.2ohm.
 
 ## Caveats
 
